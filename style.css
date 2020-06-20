@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#message_board {
+	width: 602px;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.inputMessage {
+	width: 600px;
+	height: 80px;
+	border: 1px solid #ccc;
+}
+.btn {
+	width: 602px;
+	height: 22px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	color: white;
+	background-color: black;
+	border: 1px solid black;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+h2 {
+	margin: 6px 0;
+}
+.message li {
+	list-style-type: none;
+	width: 602px;
+	text-align: 14px;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.message li a {
+	width: 14px;
+	height: 14px;
+	text-decoration: none;
+	float: right;
+	color: grey;
+	border-radius: 14px;
+	text-align: center;
+	line-height: 14px;
+	border: 1px solid grey;
+}
+.message li a:hover, .message li a:active {
+	color: red;
+	border: 1px solid red;
+}
